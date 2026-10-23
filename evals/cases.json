@@ -1,0 +1,22 @@
+[
+  {
+    "name": "kettlebell, no brand visible",
+    "image": "images/kettlebell.jpg",
+    "note": "jak nowy, nie pobijany",
+    "expect": {
+      "nullFields": ["brand"],
+      "forbiddenWords": ["na lata", "wysokiej jakości", "antypoślizgow"],
+      "requiredWords": ["kettlebell"]
+    }
+  },
+  {
+    "name": "kettlebell",
+    "image": ["images/IMG_5355.jpeg", "images/IMG_5356.jpeg", "images/IMG_5357.jpeg"],
+    "note": "jak nowy, nie pobijany",
+    "expect": {
+      "nonNullFields": ["brand"],
+      "forbiddenWords": ["na lata", "wysokiej jakości", "genialna rączka"],
+      "requiredWords": ["kettlebell"]
+    }
+  }
+]
